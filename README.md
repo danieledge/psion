@@ -6,9 +6,11 @@ New programs for the Psion Series 5mx, the 1999 palmtop: SSH, email, the web, sc
 
 They are free. If they bring your Psion back to life, you can [buy me a coffee](https://buymeacoffee.com/danedge).
 
+> **Status: early beta.** Every program here has only been tested on a Psion Series 5mx. Expect rough edges, and keep a backup of anything on the Psion you care about.
+
 <p align="center"><img src="https://raw.githubusercontent.com/danieledge/psiterm/dev/docs/screenshots/banner.png" alt="PsiTerm, PsiMail and PsiWeb on a Psion Series 5mx" width="640"></p>
 
-## Available now
+## Available now (early beta)
 
 ### PsiTerm: SSH terminal
 
@@ -56,7 +58,7 @@ Firmware that turns an M5Stack Atom (AtomS3R, AtomS3 Lite or the original Atom) 
 
 ## Coming soon
 
-These work on my own Psion and will be published when they are ready.
+These run on my own 5mx and will be published when they are ready.
 
 ### PsiDesk: desktop Linux programs
 
