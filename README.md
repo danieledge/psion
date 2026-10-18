@@ -19,7 +19,7 @@ The newest build of each program. Install a `.sis` file on the Psion from a CF c
 | PsiTerm | 0.95 | [PsiTerm.sis](https://github.com/danieledge/psiterm/raw/main/dist/PsiTerm.sis) | [psiterm dist folder](https://github.com/danieledge/psiterm/tree/main/dist) |
 | PsiMail | 0.92 | [PsiMail.sis](https://github.com/danieledge/psiterm/raw/main/dist/PsiMail.sis) | [psiterm dist folder](https://github.com/danieledge/psiterm/tree/main/dist) (still released there, so the installed program keeps updating) |
 | PsiWeb | 0.76 | [PsiWeb.sis](https://github.com/danieledge/psiterm/raw/main/dist/PsiWeb.sis) | [psiterm dist folder](https://github.com/danieledge/psiterm/tree/main/dist) |
-| PsiCast | 0.14 | [PsiCast.sis](https://github.com/danieledge/psicast/releases/latest/download/PsiCast.sis) | [PsiCast releases](https://github.com/danieledge/psicast/releases/latest) |
+| PsiCast | 0.15 | [PsiCast.sis](https://github.com/danieledge/psicast/releases/latest/download/PsiCast.sis) | [PsiCast releases](https://github.com/danieledge/psicast/releases/latest) |
 | PsiLinux | 0.22 | [PsiLinux.sis](https://github.com/danieledge/psilinux/releases/latest/download/PsiLinux.sis) | [PsiLinux releases](https://github.com/danieledge/psilinux/releases/latest) (the Linux files come as several more `.sis` files) |
 | PsiConnect firmware (AtomS3R) | 2.3 | [first flash](https://github.com/danieledge/psicast/releases/latest/download/psicast-atoms3r-factory.bin), [update](https://github.com/danieledge/psicast/releases/latest/download/psicast-atoms3r-update.bin) | [How to flash it](https://github.com/danieledge/psicast#1-the-atoms-firmware) |
 
