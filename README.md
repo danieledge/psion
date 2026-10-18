@@ -17,13 +17,13 @@ The newest build of each program. Install a `.sis` file on the Psion from a CF c
 | Program | Version | Download | All files |
 |---|---|---|---|
 | PsiTerm | 0.95 | [PsiTerm.sis](https://github.com/danieledge/psiterm/raw/main/dist/PsiTerm.sis) | [psiterm dist folder](https://github.com/danieledge/psiterm/tree/main/dist) |
-| PsiMail | 0.92 | [PsiMail.sis](https://github.com/danieledge/psiterm/raw/main/dist/PsiMail.sis) | [psiterm dist folder](https://github.com/danieledge/psiterm/tree/main/dist) |
+| PsiMail | 0.92 | [PsiMail.sis](https://github.com/danieledge/psiterm/raw/main/dist/PsiMail.sis) | [psiterm dist folder](https://github.com/danieledge/psiterm/tree/main/dist) (still released there, so the installed program keeps updating) |
 | PsiWeb | 0.76 | [PsiWeb.sis](https://github.com/danieledge/psiterm/raw/main/dist/PsiWeb.sis) | [psiterm dist folder](https://github.com/danieledge/psiterm/tree/main/dist) |
 | PsiCast | 0.14 | [PsiCast.sis](https://github.com/danieledge/psicast/releases/latest/download/PsiCast.sis) | [PsiCast releases](https://github.com/danieledge/psicast/releases/latest) |
 | PsiLinux | 0.22 | [PsiLinux.sis](https://github.com/danieledge/psilinux/releases/latest/download/PsiLinux.sis) | [PsiLinux releases](https://github.com/danieledge/psilinux/releases/latest) (the Linux files come as several more `.sis` files) |
 | PsiConnect firmware (AtomS3R) | 2.3 | [first flash](https://github.com/danieledge/psicast/releases/latest/download/psicast-atoms3r-factory.bin), [update](https://github.com/danieledge/psicast/releases/latest/download/psicast-atoms3r-update.bin) | [How to flash it](https://github.com/danieledge/psicast#1-the-atoms-firmware) |
 
-The PsiConnect firmware here has PsiCast built in. To build it yourself, or for the other Atom boards, see [its folder](https://github.com/danieledge/psiterm/tree/dev/firmware/atom-modem).
+The PsiConnect firmware here has PsiCast built in. To build it yourself, or for the other Atom boards, see [its repository](https://github.com/danieledge/psiconnect).
 
 ## Available now (early beta)
 
@@ -39,7 +39,7 @@ An SSH client and terminal (xterm-256color) with modern encryption, saved server
 
 Email for any IMAP and SMTP server with TLS, laid out like the built-in Email program. HTML mail and pictures shown on the Psion, attachments, drafts, Undo, up to four accounts, meeting invitations into the Agenda, and two-way calendar sync between the Agenda and a CalDAV server such as Fastmail's.
 
-**[In the PsiTerm repository](https://github.com/danieledge/psiterm#psimail)** · Download [PsiMail.sis](https://github.com/danieledge/psiterm/raw/main/dist/PsiMail.sis)
+**[github.com/danieledge/psimail](https://github.com/danieledge/psimail)** · Download [PsiMail.sis](https://github.com/danieledge/psiterm/raw/main/dist/PsiMail.sis)
 
 <p align="center"><img src="https://raw.githubusercontent.com/danieledge/psiterm/dev/docs/screenshots/psimail-reader.png" alt="PsiMail reading a message" width="560"></p>
 
@@ -47,7 +47,7 @@ Email for any IMAP and SMTP server with TLS, laid out like the built-in Email pr
 
 A web browser built on Links 2: HTML with some CSS, https, and JPEG, PNG and GIF pictures when you ask for them. Light sites suit it best. PsiMail opens its links in it.
 
-**[In the PsiTerm repository](https://github.com/danieledge/psiterm#psiweb)** · Download [PsiWeb.sis](https://github.com/danieledge/psiterm/raw/main/dist/PsiWeb.sis)
+**[github.com/danieledge/psiweb](https://github.com/danieledge/psiweb)** · Download [PsiWeb.sis](https://github.com/danieledge/psiterm/raw/main/dist/PsiWeb.sis)
 
 ### PsiCast: the Psion's screen on your phone
 
@@ -69,7 +69,19 @@ Runs real Linux programs on the 5mx, with no Linux kernel: a small layer gives t
 
 Firmware that turns an M5Stack Atom (AtomS3R, AtomS3 Lite or the original Atom) on an RS232 base into a modem for the Psion. It joins your Wi-Fi or your phone's hotspot and does the heavy work the Psion can't: TLS for mail, shrinking pictures to 16 greys, a web proxy, Psion Internet (PPP), a VPN home, and PsiCast's screen sharing.
 
-**[In the PsiTerm repository](https://github.com/danieledge/psiterm/tree/dev/firmware/atom-modem)** · Download the [AtomS3R firmware](https://github.com/danieledge/psicast/releases/latest)
+**[github.com/danieledge/psiconnect](https://github.com/danieledge/psiconnect)** · Download the [AtomS3R firmware](https://github.com/danieledge/psicast/releases/latest)
+
+### PsiProxy: an optional helper on your computer
+
+A small program for a computer on your network that does the heavy work a 36 MHz Psion finds slow: it fetches and slims web pages for PsiWeb, does their TLS, turns pictures into small 16-grey ones, and receives the programs' logs. None of the programs need it.
+
+**[github.com/danieledge/psiproxy](https://github.com/danieledge/psiproxy)**
+
+### psion-core: the shared code
+
+The parts every program uses: the serial and Psion Internet networking, TLS 1.3, the picture decoders, the build environment and the emulator tools. Each program's repository includes it, so you only need it to build them.
+
+**[github.com/danieledge/psion-core](https://github.com/danieledge/psion-core)**
 
 ## Coming soon
 
