@@ -8,7 +8,7 @@ They are free. If they bring your Psion back to life, you can [buy me a coffee](
 
 > **Status: early beta.** Every program here has only been tested on a Psion Series 5mx. Expect rough edges, and keep a backup of anything on the Psion you care about.
 
-<p align="center"><img src="https://raw.githubusercontent.com/danieledge/psiterm/dev/docs/screenshots/banner.png" alt="PsiTerm, PsiMail and PsiWeb on a Psion Series 5mx" width="640"></p>
+<p align="center"><img src="https://raw.githubusercontent.com/danieledge/psiterm/main/docs/screenshots/banner.png" alt="PsiTerm, PsiMail and PsiWeb on a Psion Series 5mx" width="640"></p>
 
 ## Downloads
 
@@ -33,7 +33,7 @@ An SSH client and terminal (xterm-256color) with modern encryption, saved server
 
 **[github.com/danieledge/psiterm](https://github.com/danieledge/psiterm)** · Download [PsiTerm.sis](https://github.com/danieledge/psiterm/raw/main/dist/PsiTerm.sis)
 
-<p align="center"><img src="https://raw.githubusercontent.com/danieledge/psiterm/dev/docs/screenshots/psiterm-ssh.png" alt="PsiTerm connected over SSH" width="560"></p>
+<p align="center"><img src="https://raw.githubusercontent.com/danieledge/psiterm/main/docs/screenshots/psiterm-ssh.png" alt="PsiTerm connected over SSH" width="560"></p>
 
 ### PsiMail: email and calendar
 
@@ -41,7 +41,7 @@ Email for any IMAP and SMTP server with TLS, laid out like the built-in Email pr
 
 **[github.com/danieledge/psimail](https://github.com/danieledge/psimail)** · Download [PsiMail.sis](https://github.com/danieledge/psiterm/raw/main/dist/PsiMail.sis)
 
-<p align="center"><img src="https://raw.githubusercontent.com/danieledge/psiterm/dev/docs/screenshots/psimail-reader.png" alt="PsiMail reading a message" width="560"></p>
+<p align="center"><img src="https://raw.githubusercontent.com/danieledge/psimail/main/docs/screenshots/psimail-reader.png" alt="PsiMail reading a message" width="560"></p>
 
 ### PsiWeb: web browser
 
