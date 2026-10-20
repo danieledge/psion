@@ -2,7 +2,7 @@
 
 [![Buy me a coffee](https://img.shields.io/badge/Buy%20me%20a%20coffee-support-FFDD00?logo=buymeacoffee&logoColor=000)](https://buymeacoffee.com/danedge)
 
-New programs for the Psion Series 5mx, the 1999 palmtop: SSH, email, the web, screen sharing to a phone and Linux, written to look and work like Psion's own programs. Most of them reach the internet through a small Wi-Fi modem that plugs into the Psion's serial port, or through the Psion's own dial-up connection.
+New programs for the Psion Series 5mx, the 1999 palmtop: SSH, email, the web, screen sharing to a phone, a faster serial port and Linux, written to look and work like Psion's own programs. Most of them reach the internet through a small Wi-Fi modem that plugs into the Psion's serial port, or through the Psion's own dial-up connection.
 
 They are free. If they bring your Psion back to life, you can [buy me a coffee](https://buymeacoffee.com/danedge).
 
@@ -20,6 +20,7 @@ The newest build of each program. Install a `.sis` file on the Psion from a CF c
 | PsiMail | 0.92 | [PsiMail.sis](https://github.com/danieledge/psiterm/raw/main/dist/PsiMail.sis) | [psiterm dist folder](https://github.com/danieledge/psiterm/tree/main/dist) (still released there, so the installed program keeps updating) |
 | PsiWeb | 0.76 | [PsiWeb.sis](https://github.com/danieledge/psiterm/raw/main/dist/PsiWeb.sis) | [psiterm dist folder](https://github.com/danieledge/psiterm/tree/main/dist) |
 | PsiCast | 0.18 | [PsiCast.sis](https://github.com/danieledge/psicast/releases/latest/download/PsiCast.sis) | [PsiCast releases](https://github.com/danieledge/psicast/releases/latest) |
+| PsiBoost | 0.21 | [PsiBoost.sis](https://github.com/danieledge/psiboost/releases/latest/download/PsiBoost.sis) | [PsiBoost releases](https://github.com/danieledge/psiboost/releases/latest) |
 | PsiLinux | 0.22 | [PsiLinux.sis](https://github.com/danieledge/psilinux/releases/latest/download/PsiLinux.sis) | [PsiLinux releases](https://github.com/danieledge/psilinux/releases/latest) (the Linux files come as several more `.sis` files) |
 | PsiConnect firmware (AtomS3R) | 2.3 | [first flash](https://github.com/danieledge/psicast/releases/latest/download/psicast-atoms3r-factory.bin), [update](https://github.com/danieledge/psicast/releases/latest/download/psicast-atoms3r-update.bin) | [How to flash it](https://github.com/danieledge/psicast#1-the-atoms-firmware) |
 
@@ -56,6 +57,17 @@ Shows the Psion's screen live in a phone's web browser, in colour if you like: t
 **[github.com/danieledge/psicast](https://github.com/danieledge/psicast)** · Download [PsiCast.sis](https://github.com/danieledge/psicast/releases/latest/download/PsiCast.sis)
 
 <p align="center"><img src="https://raw.githubusercontent.com/danieledge/psicast/main/docs/img/psicast-modern-system.png" alt="The Psion's System screen on a phone, in PsiCast's Modern colour theme" width="560"></p>
+
+### PsiBoost: the serial port at 230,400 bps
+
+Runs the Psion's serial port at 230,400 bps, twice EPOC's limit of 115,200 bps, for every program and from the first byte: PsiTerm, PsiMail, PsiWeb and Psion Internet all get the faster line with no change to them. A small driver adjusts the serial port's own driver, and puts the modem at the same speed. It can start with the Psion from the CF card, and comes with a speed test that compares both speeds side by side.
+
+> [!CAUTION]
+> Only tested on a Psion Series 5mx running ROM 1.05(260), with the [PsiConnect](https://github.com/danieledge/psiconnect) Wi-Fi modem. Back up C: before you try it on your own Psion.
+
+**[github.com/danieledge/psiboost](https://github.com/danieledge/psiboost)** · Download [PsiBoost.sis](https://github.com/danieledge/psiboost/releases/latest/download/PsiBoost.sis)
+
+<p align="center"><img src="https://raw.githubusercontent.com/danieledge/psiboost/main/docs/img/psiboost-main.png" alt="PsiBoost with 230,400 bps always on" width="560"></p>
 
 ### PsiLinux: Linux on the Psion
 
